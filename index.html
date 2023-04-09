@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>RB-Auto</title>
+
+  <link rel="stylesheet" href="static/css/bundle.min.css" />
+  <link rel="stylesheet" href="static/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="static/css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="static/css/cubeportfolio.min.css" />
+  <link rel="stylesheet" href="static/css/tooltipster.min.css" />
+  <link rel="stylesheet" href="static/css/revolution-settings.min.css" />
+  <link rel="stylesheet" href="static/css/navigation.css" />
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+
+<body>
+  <!--PreLoader-->
+  <div class="loader">
+    <div class="loader-spinner"></div>
+  </div>
+  <!--PreLoader Ends-->
+  <!-- header -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg static-nav bg-yellow">
+      <div class="container">
+        <a class="navbar-brand" href="index-construction.html">
+          <img src="static/image_g/logo_gray.png" style="height: 30%; width: 30%" alt="logo" />
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> 首页 </a>
+              <!-- <div class="dropdown-menu">
+                      <a class="dropdown-item" href="index-construction.html">Standard Layout</a>
+                      <a class="dropdown-item" href="index-video.html">Video Background</a>
+                      <a class="dropdown-item" href="index-light.html">Light Version</a>
+                   </div> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"> 关于我们 </a>
+            </li>
+
+            <li class="nav-item dropdown position-relative">
+              <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                产品
+              </a>
+              <div class="dropdown-menu">
+                <!-- <a class="dropdown-item" href="zl.html">增量式磁栅编码器</a> -->
+                <a class="dropdown-item" href="pd.html">皮带系列-半封闭</a>
+                <a class="dropdown-item" href="sg.html">丝杆系列-半封闭</a>
+                <a class="dropdown-item" href="rbg.html">RBG模组</a>
+                <a class="dropdown-item" href="ddg.html">电动缸</a>
+                <a class="dropdown-item" href="rbk.html">RBK模组</a>
+                <!-- <a class="dropdown-item" href="dlu.html">DL系列U型锁</a> -->
+                <!-- <a class="dropdown-item" href="dl.html">DL平板电机</a> -->
+                <a class="dropdown-item" href="zx.html">直线电机模组</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> 联系我们 </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--side menu open button-->
+      <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+        <span class="bg-dark"></span> <span class="bg-dark"></span>
+        <span class="bg-dark"></span>
+      </a>
+    </nav>
+    <!-- side menu -->
+    <div class="side-menu opacity-0">
+      <div class="overlay"></div>
+      <div class="inner-wrapper">
+        <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+        <nav class="side-nav w-100">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="index.html">
+                首页
+                <!-- Home <i class="fas fa-chevron-down"></i> -->
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"> 关于我们 </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages2">
+                系列产品 <i class="fas fa-chevron-down"></i>
+              </a>
+              <div id="sideNavPages2" class="collapse sideNavPages">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <!-- <a class="nav-link" href="zl.html">增量式磁栅编码器</a> -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pd.html">皮带系列-半封闭</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sg.html">丝杆系列-半封闭</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="rbg.html">RBG模组</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ddg.html">电动缸</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="rbk.html">RBK模组</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="dlu.html">DL系列U型锁</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="dl.html">DL平板电机</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="zx.html">直线电机模组</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> 联系我们 </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="close_side_menu" class="tooltip"></div>
+    <!-- End side menu -->
+  </header>
+  <!-- header -->
+  <!--Page Header-->
+  <section id="main-banner-page" class="position-relative page-header shop-header section-nav-smooth parallax">
+    <div class="overlay overlay-dark opacity-6 z-index-1"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="page-titles whitecolor text-center padding_top padding_bottom">
+            <h2 class="font-xlight"><br /></h2>
+            <h2 class="font-bold">
+              高性能直线传动<span class="font-light2">解决方案服务商</span>
+            </h2>
+            <h3 class="font-xlight">High performance linear drive solution service provider.</h3>
+            <!-- <h2 class="font-bold">
+              直线电机<span class="font-light2">直驱系统整体方案服务商</span>
+            </h2>
+            <h3 class="font-xlight">
+              Overall solution service of linear motor direct drivesystem
+            </h3> -->
+          </div>
+        </div>
+      </div>
+      <div class="bg-blue title-wrap">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 whitecolor">
+            <h3 class="float-left">产品列表</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Page Header ends -->
+  <!--Shopping-->
+  <section id="our-shop" class="padding_top padding_bottom_half">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center wow fadeIn" data-wow-delay="300ms">
+          <h2 class="heading bottom30 darkcolor font-light2">
+            产品 <span class="font-weight-bold"> 展示</span>
+            <span class="divider-center"></span>
+          </h2>
+          <div class="col-md-8 offset-md-2 heading_space">
+            <p>
+              主要研发生产无铁芯直线电机、有铁芯直线电机，以及精密直线电机
+              模组、XY和XYZ平台、双驱同步应用系统
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="400ms">
+          <div class="shopping-box bottom30">
+            <div class="image">
+              <img src="static/image_g/p/pd.png" alt="shop" />
+              <div class="overlay overlay-blue center-block">
+                <!-- <a class="opens" href="shop-cart.html" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a> -->
+              </div>
+            </div>
+            <div class="shop-content text-center">
+              <h4 class="darkcolor pb-2">
+                <a href="pd.html">皮带系列-半封闭</a>
+              </h4>
+              <!-- <p>直线电机驱动、光栅定位、磁栅定位...</p> -->
+              <h4 class="price-product font-weight-bold">直线模组</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="500ms">
+          <div class="shopping-box bottom30">
+            <div class="image">
+              <img src="static/image_g/p/sg.png" alt="shop" />
+              <div class="overlay overlay-blue center-block">
+                <!-- <a class="opens" href="shop-cart.html" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a> -->
+              </div>
+            </div>
+            <div class="shop-content text-center">
+              <h4 class="darkcolor pb-2">
+                <a href="sg.html">丝杆系列-半封闭</a>
+              </h4>
+              <!-- <p>直线电机驱动、光栅定位、磁栅定位...</p> -->
+              <h4 class="price-product font-weight-bold">直线模组</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="500ms">
+          <div class="shopping-box bottom30">
+            <div class="image">
+              <img src="static/image_g/p/rbk_1.png" alt="shop" />
+              <div class="overlay overlay-blue center-block">
+                <!-- <a class="opens" href="shop-cart.html" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a> -->
+              </div>
+            </div>
+            <div class="shop-content text-center">
+              <h4 class="darkcolor pb-2">
+                <a href="rbk.html">RBK模组</a>
+              </h4>
+              <!-- <p>直线电机驱动、光栅定位、磁栅定位...</p> -->
+              <h4 class="price-product font-weight-bold">直线模组</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="300ms">
+          <div class="shopping-box bottom30">
+            <div class="image">
+              <img src="static/image_g/p/ddg_!.png" alt="shop" />
+              <div class="overlay overlay-blue center-block">
+                <!-- <a class="opens" href="shop-cart.html" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a> -->
+              </div>
+            </div>
+            <div class="shop-content text-center">
+              <h4 class="darkcolor pb-2">
+                <a href="ddg.html">电动缸</a>
+              </h4>
+              <!-- <p>直线电机驱动、光栅定位、磁栅定位...</p> -->
+              <h4 class="price-product font-weight-bold">直线模组</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="500ms">
+          <div class="shopping-box bottom30">
+            <div class="image">
+              <img src="static/image_g/p/rbg_1.png" alt="shop" />
+              <div class="overlay overlay-blue center-block">
+                <!-- <a class="opens" href="shop-cart.html" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a> -->
+              </div>
+            </div>
+            <div class="shop-content text-center">
+              <h4 class="darkcolor pb-2">
+                <a href="rbg.html">RBG模组</a>
+              </h4>
+              <!-- <p>直线电机驱动、光栅定位、磁栅定位...</p> -->
+              <h4 class="price-product font-weight-bold">直线模组</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="300ms">
+          <div class="shopping-box bottom30">
+            <div class="image">
+              <img src="static/image_g/p/zxmz_1.png" alt="shop" />
+              <div class="overlay overlay-blue center-block">
+                <!-- <a class="opens" href="shop-cart.html" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a> -->
+              </div>
+            </div>
+            <div class="shop-content text-center">
+              <h4 class="darkcolor pb-2">
+                <a href="zx.html">直线电机模组</a>
+              </h4>
+              <!-- <p>直线电机驱动、光栅定位、磁栅定位...</p> -->
+              <h4 class="price-product font-weight-bold">直线电机</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Shopping ends-->
+  <!-- Counters -->
+  <section class="padding bg-shop-quote parallax">
+    <div class="overlay overlay-dark opacity-6 z-index-0"></div>
+    <div class="container">
+      <div class="row align-items-center text-center">
+        <div class="col-md-8 offset-2">
+          <div class="quote-wrapper">
+            <h3>
+              领先的自动化运动系统解决方案提供商<br />聚焦客户需求，快速响应，实现客户可持续增值<br />成熟动作，稳健成长，可信赖的长期合作伙伴
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Site Footer Here-->
+  <footer id="site-footer" class="bgprimary padding_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20">
+            <a href="index-construction.html" class="footer_logo bottom25"><img src="static/image_g/logo_gray.png"
+                style="width: 40%; height: 40%" alt="MegaOne" /></a>
+            <p class="whitecolor bottom25">
+              苏州润尔邦自动化设备有限公司（RB智能）是一家专注直线传动应用的生产厂家，是工业自动化领域的直驱电机专业制造应用服务商
+            </p>
+            <div class="d-table w-100 address-item whitecolor bottom25">
+              <span class="d-table-cell align-middle"><i class="fas fa-mobile-alt"></i></span>
+              <p class="d-table-cell align-middle bottom0">
+                +86 15151556605<a class="d-block" href="mailto:web@support.com">email@support.com</a>
+              </p>
+            </div>
+            <ul class="social-icons white wow fadeInUp" data-wow-delay="300ms">
+              <!-- <li><a href="javascript:void(0)" class=""><i class="fab fa-mobile-alt"></i> </a> </li> -->
+              <li>
+                <a href="javascript:void(0)" class=""><i class="far fa-envelope"></i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" class=""><i class="fab fa-qq"></i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" class=""><i class="fab fa-weibo"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20 pl-0 pl-lg-5">
+            <h3 class="whitecolor bottom25">主要产品</h3>
+            <ul class="links">
+              <li><a href=sg.html"">丝杆模组</a></li>
+              <li><a href="pd.html">皮带模组</a></li>
+              <li><a href="rbg.html">RBG模组</a></li>
+              <li><a href="rbk.html">RBK模组</a></li>
+              <li><a href="ddg.html">电动缸</a></li>
+              <li><a href="zx.html">直线电机模组</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20 pl-0 pl-lg-5">
+            <h3 class="whitecolor bottom25">应用范围</h3>
+            <ul class="links">
+              <li><a href="#">半导体设备</a></li>
+              <li><a href="#">3C电子领域</a></li>
+              <li><a href="#">医疗设备</a></li>
+              <li><a href="#">新能源汽车锂电设备</a></li>
+              <li><a href="#">激光加工设备</a></li>
+              <li><a href="#">精密检测设备</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyrights wow fadeInUp no-margin" data-wow-delay="350ms">
+          Copyright &copy; 2023.RB-Auto All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!--Footer ends-->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="static/js/bundle.min.js"></script>
+  <!--to view items on reach-->
+  <script src="static/js/jquery.appear.js"></script>
+  <!--Owl Slider-->
+  <script src="static/js/owl.carousel.min.js"></script>
+  <!--Parallax Background-->
+  <script src="static/js/parallaxie.min.js"></script>
+  <!--Cubefolio Gallery-->
+  <script src="static/js/jquery.cubeportfolio.min.js"></script>
+  <!--Fancybox js-->
+  <script src="static/js/jquery.fancybox.min.js"></script>
+  <!--wow js-->
+  <script src="static/js/wow.min.js"></script>
+  <!--number counters-->
+  <script src="static/js/jquery-countTo.js"></script>
+  <!--tooltip js-->
+  <script src="static/js/tooltipster.min.js"></script>
+  <!--Revolution SLider-->
+  <script src="static/js/jquery.themepunch.tools.min.js"></script>
+  <script src="static/js/jquery.themepunch.revolution.min.js"></script>
+  <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+  <script src="static/js/revolution.extension.actions.min.js"></script>
+  <script src="static/js/revolution.extension.carousel.min.js"></script>
+  <script src="static/js/revolution.extension.kenburn.min.js"></script>
+  <script src="static/js/revolution.extension.layeranimation.min.js"></script>
+  <script src="static/js/revolution.extension.migration.min.js"></script>
+  <script src="static/js/revolution.extension.migration.min.js"></script>
+  <script src="static/js/revolution.extension.parallax.min.js"></script>
+  <script src="static/js/revolution.extension.slideanims.min.js"></script>
+  <script src="static/js/revolution.extension.video.min.js"></script>
+  <!--custom functions and script-->
+  <script src="static/js/functions.js"></script>
+</body>
+
+</html>

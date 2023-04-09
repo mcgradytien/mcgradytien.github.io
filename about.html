@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>RB-Auto</title>
+
+  <link rel="stylesheet" href="static/css/bundle.min.css" />
+  <link rel="stylesheet" href="static/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="static/css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="static/css/cubeportfolio.min.css" />
+  <link rel="stylesheet" href="static/css/tooltipster.min.css" />
+  <link rel="stylesheet" href="static/css/revolution-settings.min.css" />
+  <link rel="stylesheet" href="static/css/navigation.css" />
+  <link rel="stylesheet" type="text/css" href="static/css/flaticon.css" />
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+
+<body>
+  <!--PreLoader-->
+  <div class="loader">
+    <div class="loader-spinner"></div>
+  </div>
+  <!--PreLoader Ends-->
+  <!-- header -->
+  <!-- header -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg static-nav bg-yellow">
+      <div class="container">
+        <a class="navbar-brand" href="index-construction.html">
+          <img src="static/image_g/logo_gray.png" style="height: 30%; width: 30%" alt="logo" />
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> 首页 </a>
+              <!-- <div class="dropdown-menu">
+                      <a class="dropdown-item" href="index-construction.html">Standard Layout</a>
+                      <a class="dropdown-item" href="index-video.html">Video Background</a>
+                      <a class="dropdown-item" href="index-light.html">Light Version</a>
+                   </div> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"> 关于我们 </a>
+            </li>
+
+            <li class="nav-item dropdown position-relative">
+              <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                产品
+              </a>
+              <div class="dropdown-menu">
+                <!-- <a class="dropdown-item" href="zl.html">增量式磁栅编码器</a> -->
+                <a class="dropdown-item" href="pd.html">皮带系列-半封闭</a>
+                <a class="dropdown-item" href="sg.html">丝杆系列-半封闭</a>
+                <a class="dropdown-item" href="rbg.html">RBG模组</a>
+                <a class="dropdown-item" href="ddg.html">电动缸</a>
+                <a class="dropdown-item" href="rbk.html">RBK模组</a>
+                <!-- <a class="dropdown-item" href="dlu.html">DL系列U型锁</a> -->
+                <!-- <a class="dropdown-item" href="dl.html">DL平板电机</a> -->
+                <a class="dropdown-item" href="zx.html">直线电机模组</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> 联系我们 </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--side menu open button-->
+      <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+        <span class="bg-dark"></span> <span class="bg-dark"></span>
+        <span class="bg-dark"></span>
+      </a>
+    </nav>
+    <!-- side menu -->
+    <div class="side-menu opacity-0">
+      <div class="overlay"></div>
+      <div class="inner-wrapper">
+        <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+        <nav class="side-nav w-100">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="index.html">
+                首页
+                <!-- Home <i class="fas fa-chevron-down"></i> -->
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"> 关于我们 </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages2">
+                系列产品 <i class="fas fa-chevron-down"></i>
+              </a>
+              <div id="sideNavPages2" class="collapse sideNavPages">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <!-- <a class="nav-link" href="zl.html">增量式磁栅编码器</a> -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pd.html">皮带系列-半封闭</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sg.html">丝杆系列-半封闭</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="rbg.html">RBG模组</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ddg.html">电动缸</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="rbk.html">RBK模组</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="dlu.html">DL系列U型锁</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="dl.html">DL平板电机</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="zx.html">直线电机模组</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"> 联系我们 </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="close_side_menu" class="tooltip"></div>
+    <!-- End side menu -->
+  </header>
+  <!-- header -->
+  <!--Page Header-->
+  <section id="main-banner-page" class="position-relative page-header about-header parallax section-nav-smooth">
+    <div class="overlay overlay-dark opacity-6"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="page-titles whitecolor text-center padding_top padding_bottom">
+            <h2 class="font-xlight"><br /></h2>
+            <h2 class="font-bold">
+              高性能直线传动<span class="font-light2">解决方案服务商</span>
+            </h2>
+            <h3 class="font-xlight">High performance linear drive solution service provider.</h3>
+            <!-- <h2 class="font-bold">
+              直线电机<span class="font-light2">直驱系统整体方案服务商</span>
+            </h2>
+            <h3 class="font-xlight">
+              Overall solution service of linear motor direct drivesystem
+            </h3> -->
+          </div>
+        </div>
+      </div>
+      <div class="bgdark title-wrap">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 whitecolor">
+            <h3 class="float-left">关于我们</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Page Header ends -->
+  <!-- About us -->
+  <section id="aboutus" class="padding_top padding_bottom">
+    <div class="container aboutus">
+      <div class="row align-items-center">
+        <div class="col-lg-12 col-md-12 padding_bottom_half text-center">
+          <!-- <h2 class="darkcolor font-normal bottom30">
+            专注直线传动应用的 <span class="defaultcolor">生产厂家</span>
+          </h2> -->
+          <p class="bottom20  text-md-left" style="text-indent:2em;">
+            苏州润尔邦自动化设备有限公司(品牌RB-AUTO)是一家专业从事直线传动元件的研发、制造、销售于一 体技术企业，主营产品有直线模组、滑台模组、多轴机械手、桌面式平台、精密定位平台,产品广泛应用于各
+            类自动化生产线、自动化设备(锁螺丝、点胶、焊锡)、包装、搬运、喷涂、打印、激光切割、科研实验等需求 精密直线传动及定位的领域。 </p>
+          <p class="bottom20  text-md-left" style="text-indent:2em;">我们拥有一支经验丰富的技术团队,先进的检测技术和检测手段,为保证产品的质量稳定可靠,公司先后购买
+            瑞士海克斯康的三次元和美国国家仪器API公司的激光干涉仪等检测设备,以精湛的产品定位,精细的设计制 造，协助客户实现精益自动化生产和定制个性化设备。 </p>
+          <p class="bottom20  text-md-left" style="text-indent:2em;">润尔邦追逐卓越的品质及承担起支撑引领国内自动化行业的技术发展方向为前提,并恪守"质量第一，客户
+            至上”原则,为广大客户服务!</p>
+          <!-- <a href="#our-team" class="button btn-blue pagescroll">了解更多</a> -->
+        </div>
+        <hr class="col-lg-12 col-md-12 " />
+        <div class="col-lg-12 col-md-12 padding_bottom_half text-center padding_top_half">
+          <!-- <h2 class="darkcolor font-normal bottom30">
+            专注直线传动应用的 <span class="defaultcolor">生产厂家</span>
+          </h2> -->
+          <p class="bottom20  text-md-left" style="text-indent:2em;">
+            Suzhou runerbang automation equipment co., ltd.(brand rb-auto) is a high-tech enterprise. Specializing in
+            r&d, manufacturing and sales of lineartransmission components. The main products are
+            linearmodules，slide table modules, multi- -axis robots, and desktops. Platform， precision positioning
+            platform,products are widely used in various types of automated. </p>
+          <p class="bottom20  text-md-left" style="text-indent:2em;">Production lines, automation equipment (locking
+            screws,dispensing，soldering), packaging, handling,
+            spraying,printing，laser cutting, scientific research and other fields requiring precision linear
+            transmission
+            and positioning .</p>
+          <p class="bottom20  text-md-left" style="text-indent:2em;">We have an experienced technical team， advanced
+            testing technology and testing methods. In order
+            to ensure the stable and reliable quality of the products, the company has purchased the three-dimensional
+            equipment of hexagon of switzerland and the laser interferometer of national instruments api. With superb
+            product positioning and fine design and manufacture, we help our customers to achieve lean automation
+            production and customized personalization equipment.</p>
+          <p class="bottom20  text-md-left" style="text-indent:2em;">runerbang the pursuit of superior quality and
+            taking the lead in supporting the development direction of
+            the domestic automation industry, and adhering to the "quality first, customer first" principle, to serve
+            our
+            customers!</p>
+          <!-- <a href="#our-team" class="button btn-blue pagescroll">了解更多</a> -->
+        </div>
+        <hr class="col-lg-12 col-md-12 " />
+        <div class="col-lg-12 col-md-12">
+          <img class="col-lg-12 col-md-12" src="static/image_g/p/iShot_2023-04-07_20.45.09.png" alt="">
+        </div>
+      </div>
+      <hr class="col-lg-12 col-md-12 " />
+      <div class="row align-items-center">
+        <!-- <div class="col-lg-5 col-md-6 padding_top_half text-center text-md-left">
+          <h2 class="darkcolor font-normal bottom30">
+            员工 <span class="defaultcolor"> 组成 </span>
+          </h2>
+        </div> -->
+        <div class="col-lg-12 col-md-6 padding_top_half">
+          <!-- <canvas id="myChart"></canvas> -->
+          <div id="main" style="width: 100%;height:400px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About us ends -->
+  <!-- WOrk Process-->
+  <section id="about" class="padding bglight padding_bottom_half">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 text-center heading-title">
+          <!-- <span class="defaultcolor">Basic Info About Company</span> -->
+          <h2 class="darkcolor text-capitalize bottom30 heading-title-small">
+            我们的优势（OurAdvantages）
+          </h2>
+        </div>
+        <div class="col-md-10 offset-md-1 text-center heading_space">
+          <!-- <p> Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus.</p> -->
+        </div>
+      </div>
+      <div class="row text-center about-row">
+        <div class="col-md-4 col-sm-12 wow fadeInLeft about-box">
+          <span class="flaticon flaticon-idea"></span>
+          <h3 class="m-0 darkcolor">领先的自动化运动系统解决方案提供商</h3>
+          <span class="hr-line mt-2 mb-4"></span>
+          <p>
+            我们专注于线性马达领域，为客户提供自动化运动系统整体解决方案。通过融合多年的技术精华与知识积累，
+            针对客户需求，面向高端制造业，可快速推出高品质的一站式解决方案。目前我们在线性马达的研发，
+            定制、生产、制造领域持续创新，确立了业界领先的地位，这将帮助客户建立竞争优势。
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12 wow fadeInUp about-box active">
+          <span class="flaticon flaticon-hook"></span>
+          <h3 class="m-0 darkcolor">
+            聚焦客户需求，快速响应，实现客户可持续增值
+          </h3>
+          <span class="hr-line mt-2 mb-4"></span>
+          <p>
+            我们以客户需求为驱动，在线性马达的研发流程基础上进行了敏捷的开发变革，为客户定制最合适的自动化运动
+            系统。通过与客户深入合作，共同探讨和解决方案，将客户的需求转化成客户的竞争优势，提升客户的业务价值。
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12 wow fadeInRight about-box">
+          <span class="flaticon flaticon-house"></span>
+          <h3 class="m-0 darkcolor">
+            成熟动作，稳健成长，可信赖的长期合作伙伴
+          </h3>
+          <span class="hr-line mt-2 mb-4"></span>
+          <p>
+            RB智能科技市场销售稳健增长，与客户以及合作伙伴建立了长期合作关系，致力于打造合作共赢的产业链。在此同进，我们进一
+            步加强了以客户为中心的组织流程建设，不断提升组织效率，确保公司快速增长。遍布全国的体系运作日臻成熟，使们们更加贴
+            近客户，为客户提供快速专业的服务。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery-detail" class="padding_top padding_bottom_half">
+    <div class="container col-lg-6">
+      <div class="row">
+        <div class="col-md-12 text-center wow fadeIn" data-wow-delay="300ms">
+          <h2 class="heading bottom30 darkcolor font-light2"><span class="font-weight-bold">ISO</span> 证书
+            <span class="divider-center"></span>
+          </h2>
+          <!-- <div class="col-md-8 offset-md-2 heading_space">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolores explicabo laudantium, omnis provident
+              quam reiciendis voluptatum?</p>
+          </div> -->
+        </div>
+        <div class="col-lg-12 col-md-11 left">
+          <div class="news_item shadow-equal">
+            <div class="owl-carousel owl-theme" id="carousel-gallery-detail">
+              <!--item 1-->
+              <div class="item">
+                <a href="static/image_g/iso.png" data-fancybox="gallery" title="Zoom In">
+                  <img src="static/image_g/iso.png" alt="Latest News">
+                </a>
+              </div>
+              <!--item 2-->
+              <div class="item">
+                <a href="static/picture/work-6.jpg" data-fancybox="gallery" title="Zoom In">
+                  <img src="static/picture/work-6.jpg" alt="Latest News">
+                </a>
+              </div>
+              <!--item 3-->
+              <div class="item">
+                <a href="static/picture/work-5.jpg" data-fancybox="gallery" title="Zoom In">
+                  <img src="static/picture/work-5.jpg" alt="Latest News">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section id="aboutus" class="padding_top_half">
+    <div class="container">
+      <div class="row align-items-center ">
+        <div class="col-lg-12 col-md-12 text-center">
+          <h2 class="darkcolor font-normal bottom20">
+            定位精度 <br /><span class="defaultcolor font-light">Loctaion accuracy</span>
+          </h2>
+          <p class="bottom20">
+            精度方面直线电机因传动机构简单减少了插补滞后的问题，定位精度、重现精度、绝对精度，通过位置检测反馈控制都会较“旋转伺服电机+滚珠丝杠”高，且容易实现。
+          </p>
+          <p>
+            In precision,linear motor reduces interpolation lag problems byits sample transmission
+            mechanism; it can be higher location
+            accuracy,repeatability and absolution accuracy than”rotating servomotor+ ball screw”through
+            the
+            feedback control on position
+            detection,also easy to implement.
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center ">
+        <div class="col-lg-12 col-md-12 padding_top_half text-center">
+          <h2 class="darkcolor font-normal bottom20">
+            重复精度对比 <br /><span class="defaultcolor font-light">Repeatabily comperison</span>
+          </h2>
+          <p class="bottom20">
+            因传动机构简单，减少插补滞后的问题，相反因丝杠的间隙容易产生影响，所以直线电机更容易实现。
+          </p>
+          <p>
+            Forour simple transmission structure to reduce the interpolation lag,linear motor can be
+            easier
+            to achieve better repeatability,but
+            in contrast,screw is easily to be effected by its motion space.
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center padding_top_half padding_bottom_half">
+        <div class="col-lg-12 col-md-12 text-center">
+          <h2 class="darkcolor font-normal bottom20">
+            速度对比 <br /><span class="defaultcolor font-light">Speed comparison</span>
+          </h2>
+          <p class="bottom20">
+            一般伺服旋转电机由于离心力的作用，高速运作时，将受到较大引力，因此转速和输出功率受到限制。相对而言，直线电机不受限制外，也没有机械损耗，从而提高转动速度。
+          </p>
+          <p>
+            Due to the constraints on centrifugal force,general servomotor will need to bear higher stress
+            when high-speed running,also the
+            speed and output power will be limited,But.linear motor is free of these limits.no mechanical
+            loss therefore improve actuating speed.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!--WOrk Process ends-->
+  <!--Site Footer Here-->
+  <footer id="site-footer" class="bgprimary padding_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20">
+            <a href="index-construction.html" class="footer_logo bottom25"><img src="static/image_g/logo_gray.png"
+                style="width: 40%; height: 40%" alt="MegaOne" /></a>
+            <p class="whitecolor bottom25">
+              苏州润尔邦自动化设备有限公司（RB智能）是一家专注直线传动应用的生产厂家，是工业自动化领域的直驱电机专业制造应用服务商
+            </p>
+            <div class="d-table w-100 address-item whitecolor bottom25">
+              <span class="d-table-cell align-middle"><i class="fas fa-mobile-alt"></i></span>
+              <p class="d-table-cell align-middle bottom0">
+                +86 15151556605<a class="d-block" href="mailto:web@support.com">email@support.com</a>
+              </p>
+            </div>
+            <ul class="social-icons white wow fadeInUp" data-wow-delay="300ms">
+              <!-- <li><a href="javascript:void(0)" class=""><i class="fab fa-mobile-alt"></i> </a> </li> -->
+              <li>
+                <a href="javascript:void(0)" class=""><i class="far fa-envelope"></i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" class=""><i class="fab fa-qq"></i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" class=""><i class="fab fa-weibo"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20 pl-0 pl-lg-5">
+            <h3 class="whitecolor bottom25">主要产品</h3>
+            <ul class="links">
+              <li><a href=sg.html"">丝杆模组</a></li>
+              <li><a href="pd.html">皮带模组</a></li>
+              <li><a href="rbg.html">RBG模组</a></li>
+              <li><a href="rbk.html">RBK模组</a></li>
+              <li><a href="ddg.html">电动缸</a></li>
+              <li><a href="zx.html">直线电机模组</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20 pl-0 pl-lg-5">
+            <h3 class="whitecolor bottom25">应用范围</h3>
+            <ul class="links">
+              <li><a href="#">半导体设备</a></li>
+              <li><a href="#">3C电子领域</a></li>
+              <li><a href="#">医疗设备</a></li>
+              <li><a href="#">新能源汽车锂电设备</a></li>
+              <li><a href="#">激光加工设备</a></li>
+              <li><a href="#">精密检测设备</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyrights wow fadeInUp no-margin" data-wow-delay="350ms">
+          Copyright &copy; 2023.RB-Auto All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!--Footer ends-->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="static/js/bundle.min.js"></script>
+  <!--to view items on reach-->
+  <script src="static/js/jquery.appear.js"></script>
+  <!--Owl Slider-->
+  <script src="static/js/owl.carousel.min.js"></script>
+  <!--Parallax Background-->
+  <script src="static/js/parallaxie.min.js"></script>
+  <!--Cubefolio Gallery-->
+  <script src="static/js/jquery.cubeportfolio.min.js"></script>
+  <!--Fancybox js-->
+  <script src="static/js/jquery.fancybox.min.js"></script>
+  <!--wow js-->
+  <script src="static/js/wow.min.js"></script>
+  <!--number counters-->
+  <script src="static/js/jquery-countTo.js"></script>
+  <!--tooltip js-->
+  <script src="static/js/tooltipster.min.js"></script>
+  <!--Revolution SLider-->
+  <script src="static/js/jquery.themepunch.tools.min.js"></script>
+  <script src="static/js/jquery.themepunch.revolution.min.js"></script>
+  <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+  <script src="static/js/revolution.extension.actions.min.js"></script>
+  <script src="static/js/revolution.extension.carousel.min.js"></script>
+  <script src="static/js/revolution.extension.kenburn.min.js"></script>
+  <script src="static/js/revolution.extension.layeranimation.min.js"></script>
+  <script src="static/js/revolution.extension.migration.min.js"></script>
+  <script src="static/js/revolution.extension.migration.min.js"></script>
+  <script src="static/js/revolution.extension.parallax.min.js"></script>
+  <script src="static/js/revolution.extension.slideanims.min.js"></script>
+  <script src="static/js/revolution.extension.video.min.js"></script>
+  <!--custom functions and script-->
+  <script src="static/js/functions.js"></script>
+  <!-- echart.js -->
+  <script src="static/js/echarts.min.js"></script>
+  <script type="text/javascript">
+    var dom = document.getElementById('main');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+
+    var option;
+
+    option = {
+      title: {
+        text: '我们的员工组成',
+        subtext: '占比（%）',
+        left: 'center'
+      },
+      tooltip: {
+        trigger: 'item'
+      },
+      legend: {
+        orient: 'vertical',
+        left: 'bottom'
+      },
+      series: [
+        {
+          name: '比率',
+          type: 'pie',
+          radius: '60%',
+          data: [
+            { value: 30, name: '生产(Product) 30%' },
+            { value: 27, name: '技术(Technology) 27%' },
+            { value: 8, name: '品质(Quality) 8%' },
+            { value: 8, name: '其他(Others) 8%' },
+            { value: 8, name: '售后(Customer service) 8%' },
+            { value: 19, name: '销售(Sales) 19%' }
+          ],
+          emphasis: {
+            itemStyle: {
+              shadowBlur: 10,
+              shadowOffsetX: 0,
+              shadowColor: 'rgba(0, 0, 0, 0.5)'
+            }
+          }
+        }
+      ]
+    };
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+
+</html>
