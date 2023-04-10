@@ -169,6 +169,7 @@
     </div>
   </section>
   <!--Page Header ends -->
+
   <!--Shopping-->
   <section id="our-shop" class="padding_top padding_bottom_half">
     <div class="container">
@@ -407,6 +408,22 @@
   <script src="static/js/revolution.extension.video.min.js"></script>
   <!--custom functions and script-->
   <script src="static/js/functions.js"></script>
+  <script>
+        window.onload = function () {
+        var imgs = ["static/image/bg-shop-header.jpg", "static/image/bg-team-header.jpg", "static/image/bg-cart-header.jpg"];
+        var i = 0;
+        var head = document.getElementById("main-banner-page");
+        head.style.background = "url(static/image/bg-shop-header.jpg)";
+        function time() {
+            i++;
+            i = i % 3;
+            head.style.background = "url(" + imgs[i] + ")";
+        }
+
+        setInterval(time, 2 * 1000);
+    }
+
+  </script>
 </body>
 
 </html>
