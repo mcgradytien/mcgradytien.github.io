@@ -377,5 +377,11 @@
   <!--custom functions and script-->
   <script src="static/js/functions.js"></script>
 </body>
-
+<script>
+  document.oncontextmenu = function (e) { return false; }; // 禁止右键
+  document.onselectstart = function (e) { return false; }; // 禁止选取
+  document.onpaste = function (e) { return false; }; // 禁止粘贴
+  document.oncopy = function (e) { return false; }; // 禁止复制
+  document.oncut = function (e) { return false; }; // 禁止剪贴
+</script>
 </html>

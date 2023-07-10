@@ -35,7 +35,7 @@
     <nav class="navbar navbar-expand-lg static-nav bg-yellow">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="static/image_g/logo_gray.png" style="height: 30%; width: 30%" alt="logo" />  
+          <img src="static/image_g/logo_gray.png" style="height: 30%; width: 30%" alt="logo" />
           <span class="font-bold" style="font-size: 25px;color: whitesmoke;line-height: 25px;">RB智能</span>
         </a>
         <div class="collapse navbar-collapse">
@@ -93,7 +93,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html"> 关于我们 </a>
-            </li>            
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="videos.html"> 应用现场 </a>
             </li>
@@ -262,6 +262,11 @@
 </body>
 
 <script>
+  document.oncontextmenu = function (e) { return false; }; // 禁止右键
+  document.onselectstart = function (e) { return false; }; // 禁止选取
+  document.onpaste = function (e) { return false; }; // 禁止粘贴
+  document.oncopy = function (e) { return false; }; // 禁止复制
+  document.oncut = function (e) { return false; }; // 禁止剪贴
   downLoadFile = function (file) {
     debugger
     let url = file.url;   //1.修改url
